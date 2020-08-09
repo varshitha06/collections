@@ -16,5 +16,5 @@ jobs:
         run: |
            cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
            .\MSBuild.exe $Env:GITHUB_WORKSPACE\no_oggy.csproj
-      - name: Test removal
-        run: $Env:GITHUB_WORKSPACE\no_oggy.exe
+      - name: Verify string-removal from list
+        run: D:\a\collections\collections\no_oggy.exe
